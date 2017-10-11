@@ -8,6 +8,7 @@ import (
 
 func Register(app *gin.Engine) {
 	app.Use(middlewares.CORS)
+	app.Use(middlewares.Security)
 
 	{
 		group := app.Group("/traffic")

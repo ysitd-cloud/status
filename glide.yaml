@@ -2,9 +2,16 @@ package: github.com/ysitd-cloud/status
 import:
 - package: github.com/gin-gonic/gin
   version: ^1.2.0
+  repo: https://github.com/ysitd-cloud/gin
+  vcs: git
 - package: github.com/parnurzeal/gorequest
   version: ^0.2.15
 - package: github.com/joho/godotenv
   version: ^1.2.0
   subpackages:
   - autoload
+- package: github.com/cloudflare/cloudflare-go
+  version: v0.8.2
+- package: github.com/gin-contrib/secure
+  repo: https://github.com/ysitd-cloud/secure
+  vcs: git
