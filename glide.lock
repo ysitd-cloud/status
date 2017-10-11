@@ -1,5 +1,5 @@
-hash: 247349377cf10ba6586175f17cbf2ce19f11d1bf347a6707e6d188ed0447a54f
-updated: 2017-10-12T02:16:35.139780621+08:00
+hash: 802be463a5a54003ed0d73eaa16fc99ab9499a96e4fabf407f49cec1ecc545d3
+updated: 2017-10-12T03:01:02.90910149+08:00
 imports:
 - name: github.com/cloudflare/cloudflare-go
   version: 14ae67c608c801b0844b7a0483460c7311458b50
@@ -24,6 +24,12 @@ imports:
   version: a79fa1e548e2c689c241d10173efd51e5d689d5b
   subpackages:
   - autoload
+- name: github.com/mailru/easyjson
+  version: d5b7844b561a7bc640052f1b935f7b800330d7e0
+  subpackages:
+  - buffer
+  - jlexer
+  - jwriter
 - name: github.com/mattn/go-isatty
   version: 57fdcb988a5c543893cc61bce354a6e24ab70022
 - name: github.com/moul/http2curl

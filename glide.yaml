@@ -15,3 +15,4 @@ import:
 - package: github.com/gin-contrib/secure
   repo: https://github.com/ysitd-cloud/secure
   vcs: git
+- package: github.com/mailru/easyjson
