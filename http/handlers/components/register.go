@@ -2,11 +2,9 @@ package components
 
 import "github.com/gin-gonic/gin"
 
-var serviceMap = make(map[string]string)
-
-func init() {
-	serviceMap["account"] = "account-manager"
-	serviceMap["status"] = "status-api"
+var serviceMap = map[string]string{
+	"account": "account-manager",
+	"status": "status-api",
 }
 
 func Register(group *gin.RouterGroup) {
