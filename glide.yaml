@@ -13,7 +13,6 @@ import:
 - package: github.com/cloudflare/cloudflare-go
   version: v0.8.2
 - package: github.com/gin-contrib/secure
-  repo: https://github.com/ysitd-cloud/secure
   vcs: git
 - package: github.com/mailru/easyjson
 - package: k8s.io/client-go

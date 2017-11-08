@@ -1,5 +1,5 @@
-hash: 2b70bee3daeba80fe9fb247785eeca0ee206df35a0d28c2d6915cb6f36fdacfc
-updated: 2017-10-29T17:20:45.228597821+08:00
+hash: 810bfaf60a374d7d16905b66f28a90d0a8f2c44d41d6df0d9a3409f6302d87eb
+updated: 2017-11-08T17:09:23.15276764+08:00
 imports:
 - name: github.com/cloudflare/cloudflare-go
   version: 14ae67c608c801b0844b7a0483460c7311458b50
@@ -21,8 +21,7 @@ imports:
 - name: github.com/ghodss/yaml
   version: 73d445a93680fa1a78ae23a5839bad48f32ba1ee
 - name: github.com/gin-contrib/secure
-  version: 1d2903615d9a21847cc4df4de0574574737b30c0
-  repo: https://github.com/ysitd-cloud/secure
+  version: cb26e530f89836e40b61b4e5ba8fce0842328c36
   vcs: git
 - name: github.com/gin-contrib/sse
   version: 22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae
