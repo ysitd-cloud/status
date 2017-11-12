@@ -1,7 +1,7 @@
 package: github.com/ysitd-cloud/status
 import:
 - package: github.com/gin-gonic/gin
-  version: ^1.2.0
+  version: ^1.2
   repo: https://github.com/ysitd-cloud/gin
   vcs: git
 - package: github.com/parnurzeal/gorequest
@@ -15,7 +15,5 @@ import:
 - package: github.com/gin-contrib/secure
   vcs: git
 - package: github.com/mailru/easyjson
-- package: k8s.io/client-go
-  version: ^4.0
-- package: k8s.io/apimachinery
-  version: 1fd2e63a9a370677308a42f24fd40c86438afddf
+- package: github.com/ysitd-cloud/k8s-utils
+  version: aaaa2a247ce00400f5d3274c47386f2e06333dfd

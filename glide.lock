@@ -1,5 +1,5 @@
-hash: 810bfaf60a374d7d16905b66f28a90d0a8f2c44d41d6df0d9a3409f6302d87eb
-updated: 2017-11-08T17:09:23.15276764+08:00
+hash: 056d73e2b584ab6899642fab00c4ea852da95c1d1e9bfc9b2bd50dbdf4324edc
+updated: 2017-11-13T01:50:05.113108543+08:00
 imports:
 - name: github.com/cloudflare/cloudflare-go
   version: 14ae67c608c801b0844b7a0483460c7311458b50
@@ -91,6 +91,10 @@ imports:
   version: ded73eae5db7e7a0ef6f55aace87a2873c5d2b74
   subpackages:
   - codec
+- name: github.com/ysitd-cloud/k8s-utils
+  version: aaaa2a247ce00400f5d3274c47386f2e06333dfd
+  subpackages:
+  - services
 - name: golang.org/x/crypto
   version: d172538b2cfce0c13cee31e647d0367aa8cd2486
   subpackages:
@@ -98,6 +102,8 @@ imports:
 - name: golang.org/x/net
   version: f2499483f923065a842d38eb4c7f1927e6fc6e6d
   subpackages:
+  - context
+  - context/ctxhttp
   - http2
   - http2/hpack
   - idna
