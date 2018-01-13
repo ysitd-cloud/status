@@ -14,5 +14,5 @@ import:
   version: v0.8.2
 - package: github.com/gin-contrib/secure
 - package: github.com/mailru/easyjson
-- package: github.com/ysitd-cloud/k8s-utils
-  version: 71ce85c30f133b738ea256ea6a2fe42456647fb1
+- package: code.ysitd.cloud/k8s/utils/go
+  version: a672e0f77c81153040f913dabb5ab78b5469f7c7

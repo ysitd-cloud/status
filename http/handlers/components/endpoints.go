@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/ysitd-cloud/k8s-utils/services"
+	"code.ysitd.cloud/k8s/utils/go/services"
 )
 
 func createComponentStatusEndpoint(name string) gin.HandlerFunc {
