@@ -1,14 +1,14 @@
 FROM ysitd/glide as builder
 
-ADD . /go/src/github.com/ysitd-cloud/status
+ADD . /go/src/code.ysitd.cloud/component/status
 
-WORKDIR /go/src/github.com/ysitd-cloud/status
+WORKDIR /go/src/code.ysitd.cloud/component/status
 
 RUN glide install -v && \
     go build -v
 
 FROM alpine:3.6
-COPY --from=builder /go/src/github.com/ysitd-cloud/status/status /
+COPY --from=builder /go/src/code.ysitd.cloud/component/status/status /
 
 ENV PORT 80
 EXPOSE 80

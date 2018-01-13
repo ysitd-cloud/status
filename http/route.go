@@ -2,10 +2,10 @@ package http
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/ysitd-cloud/status/http/handlers/cdn"
-	"github.com/ysitd-cloud/status/http/handlers/components"
-	"github.com/ysitd-cloud/status/http/handlers/traffic"
-	"github.com/ysitd-cloud/status/http/middlewares"
+	"code.ysitd.cloud/component/status/http/handlers/cdn"
+	"code.ysitd.cloud/component/status/http/handlers/components"
+	"code.ysitd.cloud/component/status/http/handlers/traffic"
+	"code.ysitd.cloud/component/status/http/middlewares"
 )
 
 func Register(app *gin.Engine) {

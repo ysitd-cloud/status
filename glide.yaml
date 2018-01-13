@@ -1,4 +1,4 @@
-package: github.com/ysitd-cloud/status
+package: code.ysitd.cloud/component/status
 import:
 - package: github.com/gin-gonic/gin
   version: ^1.2

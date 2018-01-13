@@ -5,7 +5,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 	_ "github.com/joho/godotenv/autoload"
-	"github.com/ysitd-cloud/status/http"
+	"code.ysitd.cloud/component/status/http"
 )
 
 func main() {
